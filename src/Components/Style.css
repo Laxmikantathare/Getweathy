@@ -1,0 +1,90 @@
+
+.weathy{
+    color:#adff2fd1;
+}
+.chaukon123{
+    background-color: hsla(0, 0%, 0%, 0.7);;
+    opacity: 0.8;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    width:29rem;
+    border-radius: 8px;
+    border:3px solid rgb(111, 122, 136) ;
+}
+
+.chaukonrang{
+    border-radius: 5px;
+}
+
+.place{
+    text-align: center;
+   /* width: 29rem; */
+    font-weight: bold;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.849);
+
+    border: 3px solid rgb(111, 122, 136);
+    border-radius: 7px   
+}
+
+.simple{
+    text-align:center;  
+}
+
+@keyframes action {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(5px); }
+}
+.imag{
+    animation: action 1s infinite  alternate;
+}
+.icon{
+    width: 146px;
+    height: 147px;
+    margin: 35px 0px;
+}
+.strong{
+    font-size: 21px;
+
+}
+.gryell{
+    color: greenyellow;
+}
+.location{  
+    font-size: 26px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 380px){
+    .place{
+     width: 21rem;
+    }
+    .icon{
+        display: none;
+    }
+    .col-8{
+        width: 100%;
+    }
+    .subline{
+        font-size: 16px;
+    }
+    .icon1{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 380px){
+    .icon1{
+        display: none;
+    }
+    .subline{
+        font-size: 18px;
+    }
+    .place{
+        width: 28rem;
+    }
+}
+@media only screen and (max-width: 380px)
+{
+    .place{
+        width: 17rem;
+    }
+}
