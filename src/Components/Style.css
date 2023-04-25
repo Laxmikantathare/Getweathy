@@ -19,7 +19,7 @@
 .place{
     text-align: center;
    /* width: 29rem; */
-    font-weight: bold;
+    font-weight: bolder;
     padding: 8px;
     background-color: rgba(255, 255, 255, 0.849);
 
@@ -41,7 +41,7 @@
 .icon{
     width: 146px;
     height: 147px;
-    margin: 35px 0px;
+    margin: 35px -14px;
 }
 .strong{
     font-size: 21px;
@@ -54,9 +54,13 @@
     font-size: 26px;
     font-weight: bold;
 }
-@media only screen and (max-width: 380px){
+.place::placeholder{
+    color: black;
+
+}
+@media only screen and (max-width: 374px){
     .place{
-     width: 21rem;
+     width: 17rem;
     }
     .icon{
         display: none;
@@ -70,8 +74,11 @@
     .icon1{
         text-align: center;
     }
+    .rounded{
+        margin-top: 1rem;
+       }
 }
-@media only screen and (min-width: 380px){
+@media only screen and (min-width: 427px){
     .icon1{
         display: none;
     }
@@ -82,9 +89,51 @@
         width: 28rem;
     }
 }
-@media only screen and (max-width: 380px)
-{
+@media only screen and (max-width: 426px) and (min-width: 376px)  {
     .place{
-        width: 17rem;
+        width: 21rem;
+       }
+       .icon{
+           display: none;
+       }
+       .col-8{
+           width: 100%;
+       }
+       .subline{
+           font-size: 17px;
+       }
+       .icon1{
+           text-align: center;
+       }
+       .chaukon123{
+        width: 24rem;
+       }
+       .rounded{
+        margin-top: 1rem;
+       }
+       
+ 
+}
+@media only screen and (max-width: 376px) and (min-width: 326px)  {
+    .place{
+        width: 19rem;
+       }
+       .icon{
+        display: none;
     }
+    .col-8{
+        width: 100%;
+    }
+    .subline{
+        font-size: 17px;
+    }
+    .icon1{
+        text-align: center;
+    }
+    .chaukon123{
+        width: 21rem;
+       }
+       .rounded{
+        margin-top: 1rem;
+       }
 }
