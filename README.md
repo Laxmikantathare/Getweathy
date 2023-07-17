@@ -2,8 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#Screenshots 👀
-![Uploading 1.png…]()
+# Screenshots 👀
+
+![1](https://github.com/Laxmikantathare/Getweathy/assets/113975228/d9cc1a40-57e3-41ab-a4ec-df6148f0ba5e)
+
 ![2](https://github.com/Laxmikantathare/Getweathy/assets/113975228/4a497dee-0428-4843-94b4-3df2691d8c88)
 
 ## Available Scripts
